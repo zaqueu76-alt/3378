@@ -60,4 +60,28 @@ h1 {
     text-align: center;
     color: red;
     text-decoration: none;
+    <style>
+.thumb{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:180px;
 }
+
+.thumb video,
+.thumb img{
+    max-width:100%;
+    max-height:100%;
+    object-fit:cover;
+    border-radius:6px;
+}
+.caption{
+    text-align:center;
+    font-size:14px;
+    color:#ccc;
+    margin:6px 0 10px 0;
+}
+</style>
+
+}
+
